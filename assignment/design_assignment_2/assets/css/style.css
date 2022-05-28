@@ -576,26 +576,26 @@ input[type="checkbox"].disabled {
   border-bottom: 1px solid var(--faint-gray);
 }
 
-table {
+.table table {
   width: 100%;
   border-collapse: collapse;
 }
 
-table th,
-table td {
+.table table th,
+.table table td {
   padding: 1rem;
   text-align: center;
 }
 
-table tr {
+.table table tr {
   border-bottom: 1px solid var(--faint-gray);
 }
 
-table thead tr:first-child {
+.table table thead tr:first-child {
   border-top: 1px solid var(--faint-gray);
   border-bottom: 2px solid var(--faint-gray);
 }
 
-table tbody tr:nth-child(odd) {
+.table table tbody tr:nth-child(odd) {
   background-color: #f8f9fa;
 }
