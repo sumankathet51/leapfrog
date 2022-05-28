@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ui Kit</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="navbar clearfix">
+                <nav class="navigation-bar">
+                    <ul>
+                        <li>
+                            <a href="" class="logo"> UI Kit </a>
+                        </li>
+
+                        <li>
+                            <a href=""> Color </a>
+                        </li>
+
+                        <li>
+                            <a href=""> Typography </a>
+                        </li>
+
+                        <li>
+                            <a href=""> Buttons </a>
+                        </li>
+
+                        <li>
+                            <a href=""> Forms</a>
+                        </li>
+
+                        <li>
+                            <a href=""> List Group </a>
+                        </li>
+
+                        <li>
+                            <a href=""> Table </a>
+                        </li>
+
+                        <li>
+                            <a href=""> Card </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="search">
+                    <form action="" method="post">
+                        <input type="text" id="search" class="form-element" placeholder="search">
+                        <button type="submit" class="btn btn-outline-success">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section id="main-heading">
+                <h1> Forms </h1>
+                <hr>
+            </section>
+
+            <section id="form-components-container" class="clearfix mt-4">
+                <aside class="sidebar">
+                    <div>
+                        <h2>Components</h2>
+                        <nav>
+                            <ul>
+                                <li>
+                                    Color
+                                </li>
+
+                                <li>
+                                    Typography
+                                </li>
+                                <li>
+                                    Buttons
+                                </li>
+                                <li class="active">
+                                    Forms
+                                </li>
+                                <li>
+                                    List Group
+                                </li>
+                                <li>
+                                    Table
+                                </li>
+                                <li>
+                                    Card
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </aside>
+
+                <div class="form-components">
+                    <div class="form-group mb-2">
+                        <h2>Input</h2>
+                        <input type="text" placeholder="Placeholder" class="form-element">
+                    </div>
+                    <div class="form-group mb-2">
+                        <h2>Select menu</h2>
+                        <select name="select" id="select" class="form-element select-field">
+                            <option value="">Select Menu</option>
+                        </select>
+                    </div>
+                    <div class="form-group mb-2">
+                        <h2>Textarea</h2>
+                        <textarea name="text-area" class="form-element" id="text-area" rows="3"
+                            placeholder="Write your message here"></textarea>
+                    </div>
+
+                    <div class="checkboxes mb-2 clearfix">
+                        <h2>Checkboxes</h2>
+                        <div class="block-checkboxes float-left">
+                            <p class="checkbox-title"> Checkboxes </p>
+                            <div class="form-group">
+                                <input type="checkbox" id="default-checkbox-1">
+                                <label for="default-checkbox-1">Default Checkbox</label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="checkbox" checked id="default-checkbox-2">
+                                <label for="default-checkbox-2">
+                                    Default Checkbox
+                                </label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="checkbox" class="disabled" disabled>
+                                <label class="disabled">
+                                    Default (disabled)
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="inline-checkboxes float-left">
+                            <p class="checkbox-title"> Inline Checkboxes </p>
+                            <div class="form-group d-inline">
+                                <input type="checkbox" id="default-checkbox-inline-1">
+                                <label for="default-checkbox-inline-1">Default Checkbox</label>
+                            </div>
+
+                            <div class="form-group d-inline">
+                                <input type="checkbox" checked id="default-checkbox-inline-2">
+                                <label for="default-checkbox-inline-2">
+                                    Default Checkbox
+                                </label>
+                            </div>
+                            <div class="form-control d-inline">
+                                <input type="checkbox" class="disabled" disabled>
+                                <label class="disabled">
+                                    Default (disabled)
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-2 clearfix">
+                        <h2>Radios</h2>
+                        <div class="block-checkboxes float-left">
+                            <p class="checkbox-title"> Radios </p>
+                            <div class="form-group">
+                                <input type="radio" id="default-radio-1">
+                                <label for="default-radio-1">Default Radio</label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="radio" checked id="default-radio-2">
+                                <label for="default-radio-2">
+                                    Selected Radio
+                                </label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="radio" class="disabled" disabled>
+                                <label class="disabled">
+                                    Default radio
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="inline-checkboxes float-left mb-2">
+                            <p class="checkbox-title"> Radios Inline </p>
+                            <div class="form-group d-inline">
+                                <input type="radio" id="default-radio-inline-1">
+                                <label for="default-radio-inline-1">Default radio</label>
+                            </div>
+
+                            <div class="form-group d-inline">
+                                <input type="radio" checked id="default-radio-inline-2">
+                                <label for="default-radio-inline-2">
+                                    Selected radio
+                                </label>
+                            </div>
+                            <div class="form-control d-inline">
+                                <input type="radio" class="disabled" disabled>
+                                <label class="disabled">
+                                    Default (disabled)
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="validation mb-2">
+                        <h2> Validation </h2>
+                        <div class="form-group">
+                            <label for="success" class="mb-1">Input Success</label>
+                            <input type="text" id="success" class="form-element mt-1 input-success">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="error" class="mb-1">Input Error</label>
+                            <input type="text" id="error" class="form-element mt-1 input-error">
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
