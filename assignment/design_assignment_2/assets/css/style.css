@@ -599,3 +599,152 @@ input[type="checkbox"].disabled {
 .table table tbody tr:nth-child(odd) {
   background-color: #f8f9fa;
 }
+
+/* pagination */
+
+.btn-pagination {
+  border: 1px solid var(--faint-gray);
+  padding: 0.8rem;
+  font-size: 1rem;
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.pagination {
+  margin-top: 1rem;
+  float: right;
+}
+
+.pagination ul li {
+  display: inline;
+}
+
+.btn-pagination.disabled {
+  color: var(--faint-gray);
+  cursor: not-allowed;
+}
+
+.btn-pagination.active {
+  color: var(--white);
+  background-color: var(--primary);
+}
+
+.card {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  margin: 1rem;
+  position: relative;
+  width: 300px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.card-header {
+  padding: 1rem;
+}
+
+.card-header .profile-img {
+  float: left;
+}
+
+.card-header .icon {
+  float: right;
+}
+
+.card-body {
+  position: relative;
+}
+
+.card-body .main-img {
+  width: 100%;
+}
+
+.card-footer {
+  padding: 0.2rem 1rem;
+}
+
+.card-footer .icon {
+  width: 30%;
+}
+
+.card-footer .icon:hover {
+  cursor: pointer;
+}
+
+.icon-container {
+  border-bottom: 1px solid var(--faint-gray);
+}
+
+.titles {
+  display: inline;
+  float: left;
+  padding: 0 1rem;
+}
+
+.title {
+  font-size: 0.9rem;
+  width: max-content;
+}
+
+.sub-title {
+  font-size: 0.8rem;
+  width: max-content;
+}
+
+.profile-img {
+  display: inline;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.icon {
+  height: 25px;
+  display: inline;
+}
+
+.comment-container {
+  margin-top: 0.3rem;
+  position: relative;
+}
+
+.icon-container img {
+  border-radius: 50%;
+}
+
+.comment {
+  border-radius: 5rem;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  padding: 0.2rem 0.4rem;
+  border: 1px solid var(--faint-gray);
+}
+
+.play-button {
+  /* bottom: -10px;
+  left: 50%; */
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: relative;
+  background: var(--status-success);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+}
+
+.play-button img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card2 p {
+  width: 100%;
+}

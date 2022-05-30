@@ -1,0 +1,174 @@
+header h2 span {
+  color: #4e42d9;
+}
+
+header h2 {
+  font-weight: 600;
+  font-size: 1.9rem;
+  line-height: 45px;
+}
+
+header .logo {
+  float: left;
+  font-size: 1.8rem;
+}
+
+header nav {
+  float: right;
+}
+
+header {
+  padding: 2rem 2.5rem;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-left: 3rem;
+}
+
+nav ul li a {
+  line-height: 3rem;
+}
+
+nav ul li a:hover {
+  color: #4e42d9;
+}
+
+.hero-image img {
+  width: 578px;
+  height: 584px;
+}
+
+.button-group {
+  margin-top: 4rem;
+}
+
+.button-group .btn {
+  margin-right: 0.75rem;
+}
+
+.hero-text {
+  margin-top: 4.25rem;
+  margin-bottom: auto;
+}
+
+/* Services */
+
+.services {
+  margin: 4.5rem 0;
+}
+
+.service {
+  width: 25%;
+  padding: 0 10px;
+}
+
+.service-icon {
+  margin-bottom: 1.5rem;
+}
+
+.service-icon > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service-desc h3 {
+  margin-bottom: 0.5rem;
+}
+/* Service section ends */
+
+/* Blog Section */
+
+.blog {
+  padding: 4.5rem;
+  background-color: #f8f8f8;
+}
+
+.blog-heading {
+  margin-bottom: 2.5rem;
+}
+
+.card {
+  width: 33%;
+  float: left;
+  padding: 0 10px;
+}
+
+.card img {
+  max-width: 100%;
+}
+
+.blog-description small {
+  margin-bottom: 0.75rem;
+}
+
+.blog-description h4 {
+  margin-bottom: 0.5rem;
+}
+
+.blogs-container {
+  margin-bottom: 4.5rem;
+}
+
+.btn-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #292838;
+}
+
+footer p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+footer .container {
+  padding: 4.5rem 0;
+}
+
+.footer-text {
+  width: 40%;
+  padding-right: 10%;
+}
+
+.footer-logo {
+  color: #fff;
+}
+
+.footer-links {
+  width: 20%;
+}
+
+.footer-links h4 {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.footer-links li {
+  margin-bottom: 1rem;
+}
+
+.footer-links li a {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-links li a:hover {
+  color: #4e42d9;
+}
+
+.copyright-text {
+  background: #23222f;
+}
+
+.copyright-text p {
+  color: #ffffffcc;
+  padding: 1.125rem;
+}
