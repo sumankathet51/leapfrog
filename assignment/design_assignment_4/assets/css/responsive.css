@@ -1,0 +1,162 @@
+.img-responsive {
+  max-width: 100%;
+}
+
+#checkbox {
+  display: none;
+}
+
+.nav-btn {
+  display: none;
+}
+
+@media screen and (min-width: 720px) and (max-width: 1200px) {
+  header nav ul li {
+    padding-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  #checkbox:checked ~ nav {
+    height: 90vh;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  #checkbox:checked ~ nav ul {
+    display: block;
+  }
+
+  #checkbox:not(:checked) ~ .nav-btn .cross {
+    display: none;
+  }
+
+  #checkbox:not(:checked) ~ .nav-btn .menu {
+    display: block;
+  }
+
+  #checkbox:checked ~ .nav-btn .menu {
+    display: none;
+  }
+
+  header nav ul {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  header .logo,
+  header nav {
+    float: none;
+  }
+
+  header .logo h2 {
+    text-align: left;
+  }
+
+  header nav ul li {
+    display: block;
+    padding: 0;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+
+  header nav ul li:last-child {
+    margin-bottom: 0;
+  }
+
+  .nav-btn {
+    display: block;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+  }
+
+  .nav-btn > label {
+    font-size: 3rem;
+  }
+
+  .hero-image {
+    width: 100%;
+  }
+
+  .hero-text {
+    width: 100%;
+  }
+
+  .service {
+    width: 50%;
+  }
+
+  .service:nth-child(4) {
+    clear: both;
+    margin-top: 2rem;
+  }
+
+  .service:nth-child(5) {
+    margin-top: 2rem;
+  }
+
+  header .logo h2 {
+    text-align: center;
+    width: fit-content;
+  }
+
+  header nav ul li {
+    text-align: center;
+  }
+
+  .blogs-container .card {
+    width: 50%;
+  }
+
+  .card:last-child {
+    clear: both;
+    margin-top: 2rem;
+  }
+
+  .footer-links {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .footer-text {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .blogs-container .card {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .service {
+    width: 100%;
+    clear: both;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 848px) {
+  .button-group .btn {
+    display: block;
+    width: max-content;
+  }
+
+  .button-group .btn:last-child {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .button-group .btn {
+    display: block;
+    width: max-content;
+  }
+
+  .button-group .btn:last-child {
+    margin-top: 1rem;
+  }
+}

@@ -34,11 +34,6 @@ nav ul li a:hover {
   color: #4e42d9;
 }
 
-.hero-image img {
-  width: 578px;
-  height: 584px;
-}
-
 .button-group {
   margin-top: 4rem;
 }
@@ -47,9 +42,22 @@ nav ul li a:hover {
   margin-right: 0.75rem;
 }
 
+.button-group .btn:last-child {
+  margin: 0;
+}
+
 .hero-text {
   margin-top: 4.25rem;
   margin-bottom: auto;
+  width: 50%;
+}
+
+.hero-image {
+  width: 50%;
+}
+
+.hero-image img {
+  margin-top: 4rem;
 }
 
 /* Services */
@@ -112,11 +120,12 @@ nav ul li a:hover {
 }
 
 .btn-container {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
-  margin-bottom: 4.6rem;
+  position: relative;
+}
+
+.btn-container .btn {
+  position: absolute;
+  left: 50%;
 }
 
 /* Footer */
