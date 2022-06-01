@@ -1,0 +1,93 @@
+.btn {
+  padding: 0.6rem 1rem;
+  line-height: 2;
+  border-radius: 4px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: #fff;
+}
+
+.btn-outline-primary {
+  border: 1px solid var(--primary);
+  color: #000;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary);
+  color: #fff;
+}
+
+.btn-outline-primary-hover {
+  background-color: var(--primary);
+  color: #fff;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+  background-color: var(--primary-dark);
+}
+
+.btn-primary-hover,
+.btn-primary-active {
+  background-color: var(--primary-dark);
+  color: #fff;
+}
+
+.btn-outline-success {
+  color: #28a745;
+  border: 1px solid #28a745;
+}
+
+.btn-outline-success:hover {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.mt-3 {
+  margin-top: 3rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.text-sm {
+  color: #868686;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.font-light {
+  color: var(--faint-gray);
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}

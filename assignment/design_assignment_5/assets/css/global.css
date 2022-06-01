@@ -1,0 +1,95 @@
+:root {
+  --faint-gray: #6c757d;
+  --primary: #7749f8;
+  --primary-dark: #5227cc;
+  --primary-light: #ebe5fc;
+  --white: #fff;
+  --light-text-color: #f8f9fa;
+
+  --status-success: #28a745;
+  --status-danger: #dc3545;
+
+  --text-dark: #152536;
+}
+
+/* The container */
+.label {
+  display: block;
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 0.8rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.label input[type="radio"],
+.label input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.radio,
+.checkbox {
+  position: absolute;
+  top: 0;
+  left: 0.5rem;
+  height: 16px;
+  width: 16px;
+  border: 1px solid #abb5be;
+}
+
+.checkbox {
+  background-color: #fff;
+}
+
+.radio {
+  border-radius: 50%;
+}
+
+.label:hover input ~ .radio {
+  background-color: #ccc;
+}
+
+input[type="radio"]:disabled ~ .radio,
+input[type="checkbox"]:disabled ~ .checkbox {
+  background-color: #abb5be;
+}
+
+.label input[type="radio"]:checked ~ .radio,
+.label input[type="checkbox"]:checked ~ .checkbox {
+  background-color: #7749f8;
+}
+
+.radio::after,
+.checkbox::after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.label input[type="radio"]:checked ~ .radio::after,
+.label input[type="checkbox"]:checked ~ .checkbox::after {
+  display: block;
+}
+
+.label .radio::after {
+  top: 4px;
+  left: 4px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.label .checkbox::after {
+  left: 4px;
+  top: 2px;
+  width: 4px;
+  height: 6px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

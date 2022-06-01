@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UI Kit</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/resets.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/utilities.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Estimated time: 20 Minutes. Started at: 1:45PM -->
+
+    <!--  Completed at: 2:12PM. Total time taken: 27 Minutes  -->
+    <!-- Navbar -->
+
+    <header>
+        <div class="container">
+            <nav class="clearfix">
+                <ul>
+                    <li class="logo">
+                        <a href="">UI Kit</a>
+                    </li>
+
+                    <li>
+                        <a href="color.html">Color</a>
+                    </li>
+
+                    <li>
+                        <a href="tabs.html">Typography</a>
+                    </li>
+
+                    <li>
+                        <a href="buttons.html">Buttons</a>
+                    </li>
+
+                    <li>
+                        <a href="forms.html">Forms</a>
+                    </li>
+
+                    <li>
+                        <a href="list-group.html">List Group</a>
+                    </li>
+
+                    <li>
+                        <a href="tables.html">Table</a>
+                    </li>
+
+                    <li>
+                        <a href="cards.html">Card</a>
+                    </li>
+                </ul>
+                <div class="search">
+                    <form action="">
+                        <input type="text" name="search" placeholder="search">
+                        <button type="submit" class="btn btn-outline-success">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Header ends -->
+
+    <!-- Start 7:25PM Estimated duration: 45 Minutes -->
+    <!-- Finished: 9:40PM Total time taken : 2hrs 15 minutes -->
+    <!-- Custom Checkbox and radio took a lot of time -->
+
+    <!-- From Section Starts -->
+    <section id="forms">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Forms</h2>
+            </div>
+
+            <div class="wrapper clearfix">
+                <div class="components">
+                    <h3> Components </h3>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href=""> Color </a>
+                            </li>
+
+                            <li>
+                                <a href="">Typography</a>
+                            </li>
+
+                            <li>
+                                <a href="">Buttons</a>
+                            </li>
+
+                            <li>
+                                <a href="" class="active">Forms</a>
+                            </li>
+
+                            <li>
+                                <a href="">List Group</a>
+                            </li>
+
+                            <li>
+                                <a href="">Table</a>
+                            </li>
+
+                            <li>
+                                <a href="">Card</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="input-group">
+                    <div class="input-texts">
+                        <div class="form-group">
+                            <h4 class="form-title first-input-heading">Input</h4>
+                            <input type="text" name="input" class="form-control" placeholder="Placeholder">
+                        </div>
+
+                        <div class="form-group">
+                            <h4 class="form-title">Select Menu</h4>
+                            <select name="select" id="select" class="form-control form-select font-light">
+                                <option value=""> Select Menu </option>
+                                <option value=""> Option 1 </option>
+                                <option value=""> Option 2 </option>
+                            </select>
+
+                        </div>
+
+                        <div class="form-group">
+                            <h4 class="form-title">Textarea</h4>
+                            <textarea name="text-area" id="text-area" class="form-control" rows="5"
+                                placeholder="Write your message here"></textarea>
+                        </div>
+
+                    </div>
+
+                    <div class="checkboxes clearfix">
+                        <h4 class="form-title">Checkboxes</h4>
+
+                        <div class="w-40 float-left">
+                            <p class="input-header">Checkboxes</p>
+
+                            <label class="label"> Default Radio
+                                <input type="checkbox" name="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label">Selected checkbox
+                                <input type="checkbox" name="checkbox" checked>
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label">Disabled checkbox
+                                <input type="checkbox" name="checkbox" disabled>
+                                <span class="checkbox"></span>
+                            </label>
+                        </div>
+
+                        <div class="inline-checkboxes float-left">
+                            <p class="input-header">Checkboxes Inline</p>
+                            <label class="label inline"> Default Radio
+                                <input type="checkbox" name="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label inline">Selected checkbox
+                                <input type="checkbox" name="checkbox" checked>
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label inline">Disabled checkbox
+                                <input type="checkbox" name="checkbox" disabled>
+                                <span class="checkbox"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="radio-buttons clearfix">
+                        <h4 class="form-title">Radios</h4>
+
+                        <div class="w-40 float-left">
+                            <p class="input-header">Radios</p>
+                            <label class="label"> Default Radio
+                                <input type="radio" name="radio">
+                                <span class="radio"></span>
+                            </label>
+                            <label class="label">Selected radio
+                                <input type="radio" name="radio" checked>
+                                <span class="radio"></span>
+                            </label>
+                            <label class="label">Disabled radio
+                                <input type="radio" name="radio" disabled>
+                                <span class="radio"></span>
+                            </label>
+                        </div>
+
+                        <div class="inline-radio-buttons float-left">
+                            <p class="input-header">Radios Inline</p>
+                            <label class="label inline"> Default Radio
+                                <input type="radio" name="radio-2">
+                                <span class="radio"></span>
+                            </label>
+                            <label class="label inline">Selected radio
+                                <input type="radio" name="radio-2" checked>
+                                <span class="radio"></span>
+                            </label>
+                            <label class="label inline">Disabled radio
+                                <input type="radio" name="radio-2" disabled>
+                                <span class="radio"></span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="validations">
+                        <h4>Validation</h4>
+                        <div class="form-group">
+                            <label for="form-success" class="input-label">Input success</label>
+                            <input type="text" id="form-success" class="form-control success">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="form-success" class="input-label">Input Error</label>
+                            <input type="text" id="form-success" class="form-control failure">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Form Section ends -->
+
+</body>
+
+</html>
