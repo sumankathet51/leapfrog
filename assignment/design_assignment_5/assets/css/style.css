@@ -18,6 +18,10 @@ header nav ul li {
   margin-right: 1rem;
 }
 
+header nav ul li a.active {
+  color: #000;
+}
+
 header nav ul {
   float: left;
 }
