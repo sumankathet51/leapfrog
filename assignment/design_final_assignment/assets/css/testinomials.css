@@ -1,0 +1,88 @@
+.testinomial {
+  padding: 4rem 7rem;
+  border-radius: 1.5rem;
+  position: relative;
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+}
+
+.testinomial .section-heading {
+  margin-bottom: 4.375rem;
+}
+
+.testinomial-dots {
+  position: absolute;
+}
+.testinomial-dots-left {
+  bottom: 1.7rem;
+  left: -3.7rem;
+  z-index: -1;
+}
+
+.testinomial-dots-right {
+  top: -1rem;
+  right: -3rem;
+}
+
+.testinomial .section-heading {
+  margin-top: 0;
+}
+
+.testinomial .section-heading h2,
+.testinomial p,
+footer p {
+  color: var(--white);
+}
+
+.testinomial .section-heading::after {
+  background: var(--white);
+}
+
+.testinomial__user__details {
+  padding-left: 3rem;
+}
+
+.testinomial .name {
+  font-weight: 700;
+}
+
+.slider-controls {
+  width: max-content;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+.left,
+.right,
+.dots {
+  display: inline-block;
+}
+
+.left {
+  padding-right: 6.06rem;
+}
+
+.left svg {
+  fill: var(--primary);
+  fill-opacity: 0.3;
+}
+.right {
+  padding-left: 6.06rem;
+}
+
+.circle {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  background-color: #5b9bf3;
+  border-radius: 50%;
+  margin-right: 1.2rem;
+  opacity: 0.3;
+}
+
+.circle:last-child {
+  margin-right: 0;
+}
+
+.circle.active {
+  opacity: 1;
+}

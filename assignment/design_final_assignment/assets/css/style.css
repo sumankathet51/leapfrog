@@ -1,0 +1,228 @@
+.card {
+  background-color: #fff;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  padding: 2.4rem;
+  border-radius: 1.4rem;
+  height: 25rem;
+  text-align: center;
+  transition: all 400ms ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card__icon {
+  margin-top: 3rem;
+}
+
+.card__heading {
+  margin-bottom: 1rem;
+  margin-top: 1.4rem;
+}
+
+.services__body {
+  margin-top: 5rem;
+  position: relative;
+}
+
+.services__action {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.card__icon img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.services__dots {
+  display: none;
+}
+
+.leading-heath-care__action {
+  /* display: block; */
+  margin-top: 3rem;
+}
+
+.download-btn:hover .download-icon {
+  fill: var(--white);
+}
+
+.section.leading-heath-care {
+  margin-left: -5%;
+}
+
+.blogs .card {
+  padding: 0;
+  height: auto;
+}
+
+.blogs .card__body {
+  padding: 1.3125rem 4.125rem 2.18rem 2.0625rem;
+}
+
+.card__img img {
+  width: 100%;
+}
+
+.blogs .card .card__body p {
+  margin-top: 0.75rem;
+  margin-bottom: 1.5625rem;
+}
+
+.card__action a {
+  color: var(--primary);
+}
+
+.card__action a:hover,
+.card__action a:active {
+  color: rgba(var(--primary), 0.3);
+}
+
+.card__action a:hover .fill-hover,
+.card__action a:active .fill-hover {
+  fill: rgba(var(--primary), 0.8);
+}
+
+.link-icon {
+  margin-left: 0.5rem;
+}
+
+.blogs {
+  padding: 2rem;
+}
+
+footer {
+  position: relative;
+  /* overflow-x: hidden; */
+}
+
+.footer {
+  overflow: hidden;
+  position: relative;
+
+  margin-top: 6rem;
+  padding-block: 7.5rem;
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+}
+
+.footer-logo {
+  margin-bottom: 1rem;
+}
+
+.copyright-text {
+  margin-top: 2rem;
+}
+
+.footer__links__heading p {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1.375rem;
+}
+
+.footer__links > ul > li {
+  padding-bottom: 1rem;
+}
+
+.footer__links > ul > li > a {
+  color: var(--white);
+  font-weight: 300;
+}
+
+.footer__links > ul > li > a:hover {
+  color: rgba(var(--primary), 0.3);
+}
+
+.footer__links > ul > li:last-child {
+  padding-bottom: 0;
+}
+
+footer .col-3 {
+  width: 50%;
+  float: left;
+}
+
+.blogs__dots {
+  display: none;
+}
+
+.footer__dots {
+  position: absolute;
+  right: 1rem;
+  top: -4.5rem;
+  z-index: -1;
+}
+
+.footer__dots__left {
+  position: absolute;
+  left: -1rem;
+  bottom: -1.5rem;
+}
+@media (min-width: 720px) {
+  footer .col-3 {
+    width: calc(100% / 3);
+    float: left;
+  }
+
+  .blogs__dots {
+    display: block;
+    position: absolute;
+    top: -3rem;
+    left: -3rem;
+    z-index: -1;
+  }
+
+  .card {
+    text-align: left;
+  }
+
+  footer .footer__col {
+    padding-right: 7rem;
+  }
+
+  .card__icon img {
+    display: block;
+    margin: 0;
+  }
+
+  .services__body::after {
+    content: "";
+    position: absolute;
+    top: -3rem;
+    left: -13rem;
+    z-index: -1;
+    height: 900px;
+    width: 900px;
+    background-image: url("../images/background-illustration.png");
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+  }
+
+  .blogs {
+    position: relative;
+    background-image: url("../images/right-blob.svg");
+    background-repeat: no-repeat;
+    background-position: right 0 center;
+  }
+
+  .services__description {
+    padding: 0 6rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .services__dots {
+    display: block;
+    position: absolute;
+    right: -1rem;
+    bottom: -3rem;
+    z-index: -1;
+  }
+  .services__description {
+    padding: 0 12rem;
+    text-align: center;
+  }
+}

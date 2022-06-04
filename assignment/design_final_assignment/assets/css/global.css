@@ -1,0 +1,38 @@
+:root {
+  --primary: #458ff6;
+  --link-color: #4089ed;
+
+  --text-light: #7d7987;
+  --text-dark: #1f1534;
+
+  --white: #fff;
+
+  --gradient-top: #67c3f3;
+  --gradient-bottom: #5a98f2;
+}
+
+section,
+header {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
