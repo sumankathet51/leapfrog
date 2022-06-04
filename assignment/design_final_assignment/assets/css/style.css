@@ -41,6 +41,10 @@
   display: none;
 }
 
+.leading-heath-care {
+  background: none;
+}
+
 .leading-heath-care__action {
   /* display: block; */
   margin-top: 3rem;
@@ -210,6 +214,13 @@ footer .col-3 {
   .services__description {
     padding: 0 6rem;
     text-align: center;
+  }
+
+  .leading-heath-care {
+    background: url("../images/dots-5-5.png");
+    background-repeat: no-repeat;
+
+    background-position: right -3rem bottom;
   }
 }
 
