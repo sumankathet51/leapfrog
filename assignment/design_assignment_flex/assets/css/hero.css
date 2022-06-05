@@ -1,0 +1,82 @@
+.hero {
+  position: relative;
+  clip-path: ellipse(100% 66% at 54% 33%);
+  background: var(--hero-bg);
+  margin-top: 0;
+  width: 100%;
+}
+
+.hero__heading h1 {
+  color: var(--text-primary);
+}
+
+/* .hero__heading h1 span { */
+/* color: var(--primary);
+} */
+
+.hero__img__container {
+  max-width: 100%;
+}
+
+.hero p {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.hero__action {
+  margin-top: 3.25rem;
+}
+
+.hero__action a.watch__now {
+  color: var(--dark);
+}
+
+.hero__action a.watch__now:hover {
+  color: var(--primary);
+}
+
+.hero .details {
+  padding: 0.5rem;
+  position: relative;
+}
+
+.check {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+}
+
+.hero .icon {
+  padding-left: 0.75rem;
+}
+
+p.title {
+  font-weight: 700;
+}
+
+p.description {
+  font-size: 1.25rem;
+}
+
+.hero__col__right {
+  position: relative;
+}
+
+.hero .event {
+  left: -10%;
+  bottom: 20%;
+}
+
+.hero .message {
+  right: -10%;
+  top: 45%;
+}
+
+.bar__chart__icon {
+  right: -10%;
+  top: 15%;
+}
+
+.assisted__students {
+  top: 30%;
+  left: -10%;
+}

@@ -1,0 +1,26 @@
+.card {
+  box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+  border-radius: 1.25rem;
+  padding: 3.32rem;
+  position: relative;
+}
+
+.card__icon {
+  position: absolute;
+  top: -5.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.services__cards_container {
+  margin-top: 9rem;
+}
+
+.card__heading {
+  margin-top: 4rem;
+}
+
+.card__desc p {
+  font-size: 1.25rem;
+  margin-top: 10%;
+}

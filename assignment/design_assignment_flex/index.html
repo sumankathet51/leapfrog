@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skilline</title>
+    <!-- Font Import -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,800&display=swap"
+        rel="stylesheet">
+    <!-- Browser resets -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <!-- Global variables and keyframs -->
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <!-- Layouts -->
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <!-- Navbar -->
+    <link rel="stylesheet" href="./assets/css/navbar.css">
+    <!-- Buttons -->
+    <link rel="stylesheet" href="./assets/css/buttons.css">
+    <!-- hero section -->
+    <link rel="stylesheet" href="./assets/css/hero.css">
+    <!-- Utilities -->
+    <link rel="stylesheet" href="./assets/css/utilities.css">
+    <!-- card -->
+    <link rel="stylesheet" href="./assets/css/card.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <input type="checkbox" id="toggle-menu">
+
+    <header class="header clearfix">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="./assets/images/skilline-logo.svg" alt="">
+            </a>
+            <label for="toggle-menu" class="header__menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active nav-link">Home</a></li>
+                    <li><a href="#" class="nav-link">Careers</a></li>
+                    <li><a href="#" class="nav-link">Blog</a></li>
+                    <li><a href="#" class="nav-link">About us</a></li>
+                    <li><a href="#" class="btn btn-secondary">Login</a></li>
+                    <li><a href="#" class="btn btn-primary">Signup</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="row row-reverse">
+                <div class="col">
+                    <div class="hero__heading">
+                        <h1> <span class="text-primary">Studying</span> Online is now much easier </h1>
+                    </div>
+                    <div class="hero__text">
+                        <p>
+                            Skilline is an interesting platform that will teach you in more an interactive way
+                        </p>
+                    </div>
+                    <div class="hero__action row align-center gap-2">
+                        <div class="hero__button">
+                            <a href="#" class="btn btn-primary">Join for free</a>
+                        </div>
+                        <div class="hero__play d-flex align-center gap-2">
+                            <a href="#" class="play-btn d-flex align-center justify-center">
+                                <svg width="24" height="28" viewBox="0 0 24 28" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M22.5751 12.8097C23.2212 13.1983 23.2212 14.135 22.5751 14.5236L1.51538 27.1891C0.848878 27.5899 5.91205e-07 27.1099 6.25202e-07 26.3321L1.73245e-06 1.00123C1.76645e-06 0.223477 0.848877 -0.256572 1.51538 0.14427L22.5751 12.8097Z"
+                                        fill="#23BDEE" />
+                                </svg>
+                            </a>
+                            <a href="#" class="watch__now">Watch how it works</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col hero__col__right">
+                    <div class="hero__floating__events">
+                        <div class="bar__chart__icon position-absolute">
+                            <img src="./assets/images/icons/bar-chart-icon.svg" alt="">
+                        </div>
+                        <div class="assisted__students position-absolute glass-effect">
+                            <div class="d-flex align-center gap-1">
+                                <div class="icon">
+                                    <img src="./assets/images/icons/calender-blue.svg" alt="">
+                                </div>
+                                <div class="details">
+                                    <p class="title">259k</p>
+                                    <p class="description">Assissted Students</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event position-absolute glass-effect">
+                            <div class="d-flex align-center gap-1">
+                                <div class="icon">
+                                    <img src="./assets/images/profile.png" alt="">
+                                </div>
+                                <div class="details">
+                                    <p class="title">User Experience Class</p>
+                                    <p class="description">Today at 12.00 PM</p>
+                                    <a href="#" class="btn btn-join">Join now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="message position-absolute glass-effect">
+                            <div class="d-flex align-center gap-1">
+                                <div class="icon">
+                                    <img src="./assets/images/icons/messaging-icon.svg" alt="">
+                                </div>
+                                <div class="details">
+                                    <p class="title">Congratulations</p>
+                                    <span class="check">
+                                        <img src="./assets/images/icons/check-box.svg" alt="">
+                                    </span>
+                                    <p class="description">Your admission completed</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero__img__container">
+                        <img src="./assets/images/lovely-teenage-girl-with-curly-hair-posing-yellow-tshirt-min 1.png"
+                            class="img-responsive" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="trusted__compaines">
+        <div class="container">
+            <h5 class="text-center">Trusted by 5,000+ Companies Worldwide</h5>
+            <div class="d-flex gap-2 trusted__compaines__logo justify-center">
+                <div class="testinomial-logo">
+                    <img src="./assets/images/icons/google-2015 1.svg" alt="">
+                </div>
+                <div class="testinomial-logo">
+                    <img src="./assets/images/icons/netflix.svg" alt="">
+                </div>
+                <div class="testinomial-logo">
+                    <img src="./assets/images/icons/airbnb.svg" alt="">
+                </div>
+                <div class="testinomial-logo">
+                    <img src="./assets/images/icons/amazon.svg" alt="">
+                </div>
+                <div class="testinomial-logo">
+                    <img src="./assets/images/icons/facebook.svg" alt="">
+                </div>
+                <div class="testinomial-logo">
+                    <img src="./assets/images/icons/grab-logo.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="text-center">All-In-One <span class="text-primary"> Cloud Software. </span> </h2>
+                <p class="text-center">
+                    Skilline is one powerful online software suite that combines all the tools needed to
+                    run a successful
+                    school
+                    or office.
+                </p>
+            </div>
+
+            <div class="services__cards_container gap-2 d-flex">
+                <div class="card">
+                    <div class="card__icon">
+                        <img src="./assets/images/icons/doc-icon.svg" alt="">
+                    </div>
+                    <div class="card__body">
+                        <div class="card__heading">
+                            <h3 class="text-center">
+                                Online Billing, Invoicing, & Contracts
+                            </h3>
+                        </div>
+                        <div class="card__desc">
+                            <p class="text-center">
+                                Simple and secure control of your organization’s financial and legal transactions. Send
+                                customized invoices and contracts
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__icon">
+                        <img src="./assets/images/icons/calender-icon.svg" alt="">
+                    </div>
+                    <div class="card__body">
+                        <div class="card__heading">
+                            <h3 class="text-center">
+                                Easy Scheduling & Attendance Tracking
+                            </h3>
+                        </div>
+                        <div class="card__desc">
+                            <p class="text-center">
+                                Schedule and reserve classrooms at one campus or multiple campuses. Keep detailed
+                                records of student attendance
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__icon">
+                        <img src="./assets/images/icons/users-icon.svg" alt="">
+                    </div>
+                    <div class="card__body">
+                        <div class="card__heading">
+                            <h3 class="text-center">
+                                Customer Tracking
+                            </h3>
+                        </div>
+                        <div class="card__desc">
+                            <p class="text-center">
+                                Automate and track emails to individuals or groups. Skilline’s built-in system helps
+                                organize your organization
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+</body>
+
+</html>

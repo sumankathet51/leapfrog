@@ -1,0 +1,136 @@
+header {
+  padding: 1rem 0;
+  background-color: var(--hero-bg);
+  padding-bottom: 6rem;
+}
+
+nav ul li {
+  text-align: center;
+}
+
+#toggle-menu {
+  display: none;
+}
+
+header nav {
+  height: 95vh;
+  position: relative;
+  transition: all 400ms ease-in-out;
+}
+
+header nav ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+header nav ul li {
+  margin-bottom: 3rem;
+}
+
+header nav ul li:last-child {
+  margin-bottom: 0;
+}
+
+.nav-link {
+  color: var(--text-dark);
+  opacity: 0.5;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  opacity: 1;
+}
+
+.header__menu {
+  position: relative;
+  float: right;
+  height: 32px;
+  width: 32px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+label.header__menu:hover {
+  cursor: pointer;
+}
+
+.header__menu span {
+  position: absolute;
+  top: 2rem;
+  transition: all 400ms ease-in-out;
+  width: 32px;
+  height: 3px;
+  background-color: black;
+}
+
+.header__menu span:nth-child(2) {
+  transform: translateY(8px);
+  opacity: 0;
+}
+
+.header__menu span:last-child {
+  transform: translateY(16px);
+}
+
+#toggle-menu:checked ~ header label span:first-child {
+  transform: rotate(40deg);
+}
+
+#toggle-menu:checked ~ header {
+  background-color: #fff;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+#toggle-menu:not(:checked) ~ header label span:nth-child(2) {
+  opacity: 1;
+}
+
+#toggle-menu:checked ~ header label span:last-child {
+  transform: rotate(-40deg);
+}
+
+#toggle-menu:not(:checked) ~ header nav {
+  height: 0;
+  margin-top: -100vw;
+  opacity: 0;
+}
+
+@media (min-width: 912px) {
+  .header__menu {
+    display: none;
+  }
+
+  .header {
+    padding-bottom: 1rem;
+  }
+
+  #toggle-menu:checked ~ header nav,
+  #toggle-menu:not(:checked) ~ header nav {
+    opacity: 1;
+    display: block;
+    margin: 0;
+    height: auto;
+    float: right;
+  }
+
+  header nav ul {
+    position: initial;
+    display: block;
+    transform: translate(0, 0);
+  }
+
+  header nav ul li {
+    display: inline-block;
+    padding-bottom: 0;
+    padding-left: 1rem;
+    padding-top: 2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  header nav ul li {
+    padding-left: 3rem;
+  }
+}

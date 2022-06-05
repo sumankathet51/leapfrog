@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 3.375rem;
+  line-height: 5rem;
+}
+
+h2 {
+  color: var(--text-primary);
+  font-size: 2.25rem;
+  margin-bottom: 1.25rem;
+}
+
+h3 {
+  color: var(--text-primary);
+  font-weight: 500;
+  font-size: 1.875rem;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 1.75rem;
+  color: var(--text-light);
+}
+
+a {
+  text-decoration: none;
+  font-weight: 400;
+}
+
+ul li {
+  list-style: none;
+}
+
+p {
+  color: var(--paragraph-color);
+  font-size: 1.5rem;
+}
+
+section {
+  margin-top: 6rem;
+}

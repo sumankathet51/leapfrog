@@ -1,0 +1,22 @@
+:root {
+  --primary: #f48c06;
+  --tertiary: #23bdee;
+
+  --text-primary: #2f327d;
+  --text-footer: #b2b3cf;
+  --text-light: #696984;
+  --paragraph-color: #464646;
+
+  --hero-bg: #fff2e1;
+
+  --tag-color: #f4c467;
+  --light-border: #83839a;
+  --white: #ffffff;
+
+  --pink: #d8587e;
+  --pink-light: rgba(216, 88, 126, 0.8);
+
+  --dark: #252641;
+
+  --gradient: linear-gradient(105.5deg, #545ae7 19.57%, #393fcf 78.85%);
+}
