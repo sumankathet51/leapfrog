@@ -41,7 +41,7 @@ ul li {
 }
 
 p {
-  color: var(--paragraph-color);
+  color: var(--text-light);
   font-size: 1.5rem;
 }
 

@@ -8,3 +8,7 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.company__desc .section-header {
+  max-width: 1101px;
+}

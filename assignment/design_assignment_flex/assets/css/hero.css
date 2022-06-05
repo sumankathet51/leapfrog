@@ -10,16 +10,13 @@
   color: var(--text-primary);
 }
 
-/* .hero__heading h1 span { */
-/* color: var(--primary);
-} */
-
 .hero__img__container {
   max-width: 100%;
 }
 
 .hero p {
   font-family: "Nunito Sans", sans-serif;
+  color: var(--paragraph-color);
 }
 
 .hero__action {
