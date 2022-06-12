@@ -113,7 +113,7 @@ class Ball {
 
 let balls = [];
 
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < 10; i++) {
     let color =
         "rgb(" +
         String(generateRandom(1, 256)) +
