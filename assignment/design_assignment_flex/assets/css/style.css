@@ -3,12 +3,211 @@
   align-items: flex-start;
 }
 
-.section-header {
+/* .section-header {
   max-width: 837px;
   margin-left: auto;
   margin-right: auto;
+} */
+
+.hero__heading {
+  max-width: 681px;
+}
+
+.hero__text {
+  max-width: 523px;
 }
 
 .company__desc .section-header {
   max-width: 1101px;
+}
+
+.wrapper {
+  margin-top: 3rem;
+}
+
+.wrapper .instructors {
+  background: url("../images/teacher.png");
+}
+.wrapper .students {
+  background: url("../images/student.png");
+}
+
+.wrapper .card--cta {
+  min-width: 80vw;
+  min-height: 25rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 20px;
+}
+
+.wrapper .instructors::before,
+.wrapper .students::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(23, 27, 65, 0.5);
+  border-radius: 1.25rem;
+}
+
+.cta {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cta h4 {
+  color: var(--white);
+  font-size: 2rem;
+}
+
+.description__link {
+  text-align: left;
+}
+
+.description__link a {
+  color: var(--text-light);
+  font-size: 1.375rem;
+  text-decoration: underline;
+  /* text-align: left; */
+}
+
+.features__wrapper {
+  margin-top: 6.2rem;
+}
+
+.features__heading h3 {
+  font-size: 2.5rem;
+  /* max-width: 100%; */
+}
+
+.feature__description {
+  /* max-width: 100%; */
+  margin-top: 3rem;
+}
+
+.feature__lists p {
+  position: relative;
+  max-width: 70%;
+  padding-left: 2rem;
+  /* margin-top: 3rem; */
+}
+
+.feature__list {
+  justify-content: flex-start;
+}
+
+.feature__lists span.icon {
+  display: block;
+  padding: 2rem;
+  background: #fbfbfb;
+  border-radius: 50%;
+  box-shadow: 0px 15px 44px rgba(13, 15, 28, 0.12);
+}
+
+.view-more {
+  margin-top: 7rem;
+}
+
+.section--top p {
+  font-family: "Nunito Sans";
+  letter-spacing: 0.2em;
+  position: relative;
+  padding-left: 100px;
+}
+
+.section--top p::before {
+  position: absolute;
+  left: 0;
+  top: 1rem;
+  content: "";
+  width: 80px;
+  height: 3px;
+  background-color: #525596;
+}
+
+.img-container {
+  padding: 2rem;
+}
+
+.images {
+  max-width: 487px;
+}
+
+.integrations h3 {
+  font-size: 36px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 720px) {
+  .wrapper .card--cta {
+    min-width: 37.5rem;
+    min-height: 25rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 20px;
+  }
+
+  .company_description {
+    max-width: 730px;
+    position: relative;
+    padding: 1rem;
+    padding-left: 1.75rem;
+  }
+
+  .company_description h3 {
+    max-width: 730px;
+  }
+
+  .company_description::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4.6rem;
+    width: 4.6rem;
+    background-color: var(--primary);
+    border-radius: 50%;
+    z-index: -1;
+  }
+}
+
+@media (min-width: 928px) {
+  .feature__description {
+    max-width: 60%;
+  }
+
+  .features__heading {
+    max-width: 70%;
+  }
+
+  .feature__list {
+    justify-content: flex-end;
+  }
+
+  .feature__2__heading {
+    max-width: 393px;
+  }
+
+  .feature__2__desc {
+    max-width: 568px;
+  }
+
+  .educators {
+    max-width: 420.82px;
+  }
+
+  .content {
+    max-width: 687px;
+  }
+
+  .integrations .col .section--header h3 {
+    max-width: 480px;
+  }
 }

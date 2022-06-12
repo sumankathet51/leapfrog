@@ -3,6 +3,7 @@
   border-radius: 1.25rem;
   padding: 3.32rem;
   position: relative;
+  max-width: 450px;
 }
 
 .card__icon {
