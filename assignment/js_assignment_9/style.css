@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+.carousel-container {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.carousel-image-wrapper {
+    position: relative;
+    min-height: 80rem;
+    width: 100%;
+}
+
+.carousel__controls .left,
+.carousel__controls .right {
+    position: absolute;
+    top: 50%;
+    height: 100%;
+    width: 3rem;
+    z-index: 2;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.carousel__controls .left {
+    left: 1rem;
+    background-image: url("./images/icons/left.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.carousel__controls .right {
+    right: 1rem;
+    background-image: url("./images/icons/right.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dots {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 1rem;
+}
+
+.dots>span {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.dots>span.active {
+    background-color: rgba(255, 255, 255, 1);
+}

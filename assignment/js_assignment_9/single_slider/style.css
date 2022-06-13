@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-image-wrapper {
+    position: relative;
+    min-height: 50vh;
+    width: 100%;
+    display: inline-block;
+}
+
+.carousel__controls .left,
+.carousel__controls .right {
+    position: absolute;
+    top: 50%;
+    height: 5rem;
+    width: 3rem;
+    z-index: 2;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.carousel__controls .left svg,
+.carousel__controls .right svg {
+    fill: rgba(255, 255, 255, 0.4);
+}
+
+.carousel__controls .left {
+    left: 3rem;
+}
+
+.carousel__controls .right {
+    right: 3rem;
+}
+
+.dots {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 1rem;
+}
+
+.dots>span {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.dots>span.active {
+    background-color: rgba(255, 255, 255, 1);
+}
