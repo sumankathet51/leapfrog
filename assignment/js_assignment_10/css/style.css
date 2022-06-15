@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.road {
+    width: 516px;
+    height: 100%;
+    background-image: url("../images/road.svg");
+    background-repeat: repeat-y;
+    animation: moveRoad 6s linear infinite;
+    position: relative;
+    overflow: hidden;
+}
+
+#car {
+    margin-top: 70vh;
+    border: 1px solid red;
+}
+
+.spawns img {
+    position: absolute;
+    top: 0;
+    border: 1px solid green;
+}
+
+.game-wrapper {
+    background-color: #098f0e;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+}
+
+.score {
+    text-align: center;
+    font-size: 3rem;
+    z-index: 2;
+    background-color: bisque;
+}
+
+@keyframes moveRoad {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0 516px;
+    }
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    background-color: aquamarine;
+}

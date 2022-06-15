@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Lane</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="game-wrapper" style="display: none;">
+        <div class="road" id="road">
+            <div class="score">
+                <p>Score: <span id="score">0</span> </p>
+                <p>High Score: <span id="high-score"></span> </p>
+            </div>
+            <div>
+                <img src="./images/red.png" alt="Image" height="150px" id="car">
+            </div>
+
+            <div class="spawns" id="spawns">
+                <img src="./images/car4.png" alt="Image" height="150px">
+                <img src="./images/green.png" alt="Image" height="150px">
+                <img src="./images/yellow.png" alt="Image" height="150px">
+                <img src="./images/yellow.png" alt="Image" height="150px">
+            </div>
+        </div>
+    </div>
+
+    <div class="home">
+        <div class="home__contents">
+            <h3>Car Lane Game</h3>
+            <p>Use the Arrow left and right or a/d for controls</p>
+            <button onclick="startGame()">Start Now</button>
+        </div>
+
+    </div>
+
+    <div class="game-over home" style="display: none;">
+        <div class="home__contents">
+            <h3>Game Over</h3>
+            <p>Your Score: <span id="game-over-score"></span></p>
+            <p>High Score: <span id="game-high-score"></span></p>
+            <button onclick="startGame()">Restart</button>
+        </div>
+
+    </div>
+
+    <script src="./js/Obstacle.js"></script>
+    <script src="./js/Player.js"></script>
+    <script src="./js/constants.js"></script>
+    <script src="./js/utils.js"></script>
+    <script src="./js/game.js"></script>
+</body>
+
+</html>
