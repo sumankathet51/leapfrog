@@ -1,0 +1,120 @@
+:root {
+    --dark-yellow: #fca247;
+    --light-yellow: #e3da9c;
+    --orange: #f67300;
+    --orange-hover: rgba(246, 115, 0, 0.5);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-container {
+    height: 550px;
+    width: 60rem;
+    margin: 0 auto;
+    background-image: url("../sprites/background-day.png");
+    overflow: hidden;
+    position: relative;
+}
+
+.base {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    /* animation: move 10s linear infinite; */
+    background-image: url("../sprites/base.png");
+}
+
+.bird {
+    position: absolute;
+}
+
+.start,
+.game-over {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    transition: all 300ms ease-in-out;
+}
+
+.game-score {
+    position: absolute;
+    left: 50%;
+    font-size: 3rem;
+}
+
+.start p {
+    font-family: "flappy";
+}
+
+.start img {
+    height: 400px;
+}
+
+.game-over {
+    position: absolute;
+    left: 30%;
+    text-align: center;
+}
+
+.stats {
+    background-color: var(--light-yellow);
+    height: 300px;
+    width: 400px;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats p {
+    font-size: 2rem;
+    color: var(--dark-yellow);
+}
+
+button {
+    background-color: #f67300;
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--orange-hover);
+}
+
+.obstacles {
+    display: flex;
+}
+
+.obstacle img {
+    max-width: 52px;
+}
+
+.obstacle {
+    display: flex;
+    flex-direction: column;
+}
+
+@keyframes move {
+    0% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
