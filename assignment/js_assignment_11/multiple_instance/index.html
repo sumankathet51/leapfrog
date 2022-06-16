@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="game-container">
+            <div class="game-score">
+                0
+            </div>
+            <div class="bird"></div>
+            <div class="base"></div>
+            <div class="obstacles"></div>
+            <div class="game-over">
+                <img src="./assets/sprites/gameover.png" alt="">
+                <div class="stats">
+                    <div>
+                        <p>
+                            Score
+                        </p>
+                        <p class="score">0 </p>
+
+                        <p>
+                            High Score
+                        </p>
+                        <p class="high-score">0</p>
+                        <button type="button" class="reset-btn"> Restart </button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="start">
+                <img src="./assets/sprites/start-screen-2.png" alt="">
+            </div>
+        </div>
+
+        <div class="game-container instance-2">
+            <div class="game-score">
+                0
+            </div>
+            <div class="bird"></div>
+            <div class="base"></div>
+            <div class="obstacles"></div>
+            <div class="game-over">
+                <img src="./assets/sprites/gameover.png" alt="">
+                <div class="stats">
+                    <div>
+                        <p>
+                            Score
+                        </p>
+                        <p class="score">0 </p>
+
+                        <p>
+                            High Score
+                        </p>
+                        <p class="high-score">0</p>
+                        <button type="button" class="reset-btn"> Restart </button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="start">
+                <img src="./assets/sprites/start-screen.png" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./assets/js/constants.js"></script>
+    <script src="./assets/js/utilities.js"></script>
+    <script src="./assets/js/vector.js"></script>
+    <script src="./assets/js/Bird.js"></script>
+    <script src="./assets/js/Obstacle.js"></script>
+    <script src="./assets/js/Game.js"></script>
+</body>
+
+</html>
